@@ -79,7 +79,7 @@ def __run_trial(ctx: TrialContext, fn: Type[TrialLoop]):
         log(log_file_path, f"Trial {ctx.get_trial_number()} failed with error: {e}")
         return
 
-    with open(ctx.get_output_file_path(), "w") as f:
+    with open(ctx.get_output_file_path(), "w", encoding="utf-8") as f:
         log(log_file_path, f"Trial {ctx.get_trial_number()} succeeded")
         f.write(final_response)
 
