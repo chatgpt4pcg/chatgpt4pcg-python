@@ -1,6 +1,6 @@
 [project]
 name = "chatgpt4pcg"
-version = "1.2.1"
+version = "1.2.2"
 description = "ChatGPT4PCG is a python package containing required and utility functions as a part of ChatGPT4PCG competition."
 readme = "README.md"
 requires-python = ">=3.11"
